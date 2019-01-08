@@ -46,7 +46,7 @@ requirements:
     - freetype
     - pyparsing
     - libpng
-    - tk  # [linux]
+    - tk  # [linux64]
     - icu  # [linux]
     - tornado
     - kiwisolver
@@ -72,7 +72,7 @@ outputs:
         - pyparsing
         - libpng
         - zlib  # [win]
-        - tk  # [linux]
+        - tk  # [linux64]
         - icu  # [linux]
       run:
         - python
